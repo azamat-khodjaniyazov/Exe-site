@@ -1,0 +1,38 @@
+.header {
+  border-bottom: 4px solid $second;
+  background-color: $primary;
+}
+
+.header__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.header__logo {
+  margin-right: 20px;
+}
+
+.header__menu {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+
+  .header__wrap {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .header__logo {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+}

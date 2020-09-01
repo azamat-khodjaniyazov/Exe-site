@@ -1,0 +1,18 @@
+section.contacts
+    .contacts__wrap.wrap
+      h2.contacts__title CONTACTS
+      ul.contacts__list
+        li.contacts__form.form
+          form(action='#')
+            .form__input
+              label(for='form-name') Name
+              input#form-name(type='text' name='name' placeholder='Name')
+            .form__input
+              label(for='form-phone') Phone
+              input#form-phone(type='tel' name='phone' placeholder='Phone')
+            .form__input
+              label(for='form-message') Message
+              textarea#form-message(name='message' placeholder='Message')
+            button.form__button Send
+        li.contacts__map
+          script(type='text/javascript' charset='utf-8' async='' src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aebe2854a473c4fa64b06771fbffcd2b0b8ae00d5cf8fb3ba2f777c58d5671096&width=100%25&height=440&lang=ru_RU&scroll=true')

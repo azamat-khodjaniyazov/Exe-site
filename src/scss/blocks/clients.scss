@@ -1,0 +1,67 @@
+$bgColor: #202020;
+$lineColor: #2f2f2f;
+$colorText: #464646;
+
+.clients {
+  background-color: $bgColor;
+}
+
+.clients__wrap {
+  padding-top: 55px;
+  padding-bottom: 80px;
+}
+
+.clients__title {
+  font-size: 30px;
+  font-family: 'Raleway';
+  color: $white;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.1;
+  text-align: center;
+  margin: 25px 0;
+
+  &::before {
+    background-color: $lineColor;
+    width: 70px;
+    height: 2px;
+    display: block;
+    content: '';
+    margin: 0 auto 25px;
+  }
+
+}
+
+.clients__text {
+  font-size: 14px;
+  color: $colorText;
+  line-height: 1.429;
+  text-align: center;
+  max-width: 555px;
+  margin: 25px auto;
+}
+
+.clients__carousel {
+  margin: 50px 0;
+  padding-left: 110px;
+  padding-right: 110px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 980px) {
+
+  .clients__carousel {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .clients__wrap {
+    padding-top: 30px;
+    padding-right: 40px;
+  }
+
+}

@@ -1,0 +1,20 @@
+$bgFooter: #111111;
+
+.footer {
+  background-color: $bgFooter;
+}
+
+.footer__menu {
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer p {
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Raleway';
+	color: #707070;
+	margin: 0;
+	padding-bottom: 20px;
+}
